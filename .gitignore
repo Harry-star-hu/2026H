@@ -1,0 +1,22 @@
+# Code Composer Studio build output
+Debug/
+Release/
+**/Debug/
+**/Release/
+
+# clangd index cache
+**/.clangd/.cache/
+
+# Compiler and linker artifacts
+*.o
+*.d
+*.out
+*.map
+*.hex
+*.bin
+
+# Common editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
